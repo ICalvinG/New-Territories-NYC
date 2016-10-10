@@ -30,7 +30,7 @@ body {
    width: 100%; 
 }
 
-.text-heading {
+.index-heading {
     font-size: 200%;
 }
 
@@ -47,6 +47,10 @@ body {
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-bottom: 5%;
+}
+
+.index-info {
+	margin: 10%;
 }
 
 .job-info {
@@ -94,7 +98,7 @@ body {
 }
 
 @media (max-width: 425px) {
-	.text-heading {
+	.index-heading {
         font-size: 125%;
     }
     .nav-heading {
