@@ -133,6 +133,12 @@ body {
 	}
 }
 
+@media (max-width: 414px) {
+	.logo {
+		display: none;
+	}
+}
+
 @media (width: 768px) and (height: 1024px) {
 	footer {
 		position: absolute;
