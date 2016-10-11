@@ -30,6 +30,10 @@ body {
    width: 100%; 
 }
 
+.menu-line {
+	margin-top: 50px;
+}
+
 .index-heading {
     font-size: 200%;
 }
