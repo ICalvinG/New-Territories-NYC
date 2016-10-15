@@ -31,17 +31,17 @@
             <a href="#" data-activates="dropdown1" class="dropdown-button btn-large btn-flat menu-icon"><i class="material-icons">menu</i></a>
               <span class="nav-heading">
                 <ul class="right menu-line">
-                  <li><a href="index.html"><span class="menu-text">Home</span></a></li>
-                  <li><a href="about.html"><span class="menu-text">About Us</span></a></li>
-                  <li><a href="jobs.html"><span class="menu-text">Jobs</span></a></a></li>
-                  <li><a href="#contact"><span class="menu-text">Contact Us</span></a></a></li>
+                  <li><%= link_to 'Home', website_index_path, class: "menu-text" %></li>
+                  <li><%= link_to 'About Us', about_index_path, class: "menu-text" %></li>
+                  <li><%= link_to 'Jobs', job_index_path, class: "menu-text" %></li>
+                  <li><%= link_to 'Contact Us', anchor: "contact",class: "menu-text" %></li>
                 </ul>
               </span>
                 <ul class="dropdown-content" id="dropdown1">
-                  <li><a href="index.html"><span class="black-text">Home</span></a></li>
-                  <li><a href="about.html"><span class="black-text">About Us</span></a></li>
-                  <li><a href="jobs.html"><span class="black-text">Jobs</span></a></li>
-                  <li><a href="#contact"><span class="black-text">Contact Us</span></a></li>
+                  <li><%= link_to 'Home', website_index_path, class: "menu-text" %></li>
+                  <li><%= link_to 'About Us', about_index_path, class: "menu-text" %></li>
+                  <li><%= link_to 'Jobs', job_index_path, class: "menu-text" %></li>
+                  <li><%= link_to 'Contact Us', anchor: "contact",class: "menu-text" %></li>
                 </ul>
           </div>
         </nav>
