@@ -34,14 +34,26 @@
                   <li><%= link_to 'Home', website_index_path, class: "menu-text" %></li>
                   <li><%= link_to 'About Us', about_index_path, class: "menu-text" %></li>
                   <li><%= link_to 'Jobs', job_index_path, class: "menu-text" %></li>
-                  <li><%= link_to 'Contact Us', anchor: "contact",class: "menu-text" %></li>
+                  <% if current_page?(about_index_path) %>
+                    <li><%= link_to 'Contact Us', about_index_path(anchor: "contact"),class: "menu-text" %></li>
+                  <% elsif current_page?(job_index_path) %>
+                    <li><%= link_to 'Contact Us', job_index_path(anchor: "contact"),class: "menu-text" %></li>
+                  <% else current_page?(website_index_path) %>
+                    <li><%= link_to 'Contact Us', website_index_path(anchor: "contact"),class: "menu-text" %></li>
+                  <% end %>                
                 </ul>
               </span>
                 <ul class="dropdown-content" id="dropdown1">
                   <li><%= link_to 'Home', website_index_path, class: "menu-text" %></li>
                   <li><%= link_to 'About Us', about_index_path, class: "menu-text" %></li>
                   <li><%= link_to 'Jobs', job_index_path, class: "menu-text" %></li>
-                  <li><%= link_to 'Contact Us', anchor: "contact",class: "menu-text" %></li>
+                  <% if current_page?(about_index_path) %>
+                    <li><%= link_to 'Contact Us', about_index_path(anchor: "contact"),class: "menu-text" %></li>
+                  <% elsif current_page?(job_index_path) %>
+                    <li><%= link_to 'Contact Us', job_index_path(anchor: "contact"),class: "menu-text" %></li>
+                  <% else current_page?(website_index_path) %>
+                    <li><%= link_to 'Contact Us', website_index_path(anchor: "contact"),class: "menu-text" %></li>
+                  <% end %> 
                 </ul>
           </div>
         </nav>
