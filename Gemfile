@@ -16,9 +16,10 @@ gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+# Use pry as a debugging tool
+gem 'pry'
 # Use Materialize as the Front-end Framework
 gem 'materialize-sass'
-gem 'sass-rails', '~> 5.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
