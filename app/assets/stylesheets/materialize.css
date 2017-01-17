@@ -19,6 +19,32 @@ body {
    width: 100%; 
 }
 
+.image-text{
+	position: absolute;
+	top: 0; right: 0;
+	bottom: 0; left: 0;
+	width: 100%;
+	text-align: center;
+	vertical-align:middle;
+	line-height: 900px;
+	font-size: 450%;
+	font-weight: bolder;
+	color: white;
+}
+
+.slogan-text{
+	position: absolute;
+	top: 0; right: 0;
+	bottom: 0; left: 0;
+	width: 100%;
+	text-align: center;
+	vertical-align:middle;
+	line-height: 1050px;
+	font-size: 200%;
+	font-weight: bolder;
+	color: white;
+}
+
 .brand-logo {
 	position: absolute;
 	margin-left: 20px;
@@ -38,7 +64,7 @@ body {
 }
 
 .menu-text {
-	color: black;
+	color: white;
 	font-weight: bolder;
 }
 
