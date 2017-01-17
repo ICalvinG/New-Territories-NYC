@@ -1,5 +1,5 @@
 class JobController < ApplicationController
   def index
-  	@background_image = "/assets/shop.jpg"
+  	@background_image = "/assets/store.jpg"
   end
 end
