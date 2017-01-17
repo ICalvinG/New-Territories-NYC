@@ -58,6 +58,10 @@
           </div>
         </nav>
       </span>
+        <% if current_page?(website_index_path) %>
+          <div class="image-text flow-text">New Territories NYC</div>
+          <div class="slogan-text flow-text">Slogan Here</div>
+        <% end %>
     </div>   
     <%= yield %>
   </body>
