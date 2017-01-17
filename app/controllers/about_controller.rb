@@ -1,5 +1,5 @@
 class AboutController < ApplicationController
   def index
-  	@background_image = "/assets/dessert.jpg"
+  	@background_image = "/assets/thaigo.jpg"
   end
 end
