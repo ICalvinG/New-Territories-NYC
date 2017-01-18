@@ -169,6 +169,9 @@ footer {
     .nav-heading {
     	display: none;
     }
+    .logo {
+		display: none;
+	}
     .menu-icon {
     	visibility: visible;
     }
@@ -181,51 +184,53 @@ footer {
 	.about-heading {
 		font-size: 125%;
 	}
-/*	.image-text {
-		font-size: 300%;
-	}
-	.slogan-text {
-		font-size: 150%;
-	}*/
-}
-/*
-@media (max-height: 660px) and (max-width: 900px) {
-	.image-text {
-		font-size: 350%;
-		margin-top: 350px;
-	}
-	.slogan-text {
-		font-size: 200%;
-		margin-top: 410px;
-	}
 }
 
-@media (max-height: 570px) and (max-width: 900px)  {
+@media (max-width: 900px) {
 	.image-text {
-		font-size: 300%;
+		font-size: 350%;
 		margin-top: 300px;
 	}
 	.slogan-text {
-		font-size: 150%;
+		font-size: 200%;
 		margin-top: 380px;
 	}
 }
 
-@media (max-height: 490px) and (max-width: 900px)  {
+@media (max-width: 700px)  {
 	.image-text {
 		font-size: 300%;
+		margin-top: 250px;
+	}
+	.slogan-text {
+		font-size: 150%;
+		margin-top: 310px;
+	}
+}
+
+@media (max-width: 600px)  {
+	.image-text {
+		font-size: 200%;
 		margin-top: 200px;
 	}
 	.slogan-text {
 		font-size: 150%;
-		margin-top: 300px;
+		margin-top: 250px;
 	}
-}*/
+}
+
+@media (max-width: 500px)  {
+	.image-text {
+		font-size: 200%;
+		margin-top: 150px;
+	}
+	.slogan-text {
+		font-size: 150%;
+		margin-top: 200px;
+	}
+}
 
 @media (max-width: 414px) {
-	.logo {
-		display: none;
-	}
 	.image-text {
 		font-size: 200%;
 		margin-top: 100px;
