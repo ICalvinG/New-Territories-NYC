@@ -21,12 +21,11 @@ body {
 
 .image-text{
 	position: absolute;
-	top: 0; right: 0;
-	bottom: 0; left: 0;
+	top: 0;
+	margin-top: 380px;
 	width: 100%;
 	text-align: center;
 	vertical-align:middle;
-	line-height: 900px;
 	font-size: 450%;
 	font-weight: bolder;
 	color: white;
@@ -34,12 +33,11 @@ body {
 
 .slogan-text{
 	position: absolute;
-	top: 0; right: 0;
-	bottom: 0; left: 0;
+	top: 0;
+	margin-top: 500px;
 	width: 100%;
 	text-align: center;
 	vertical-align:middle;
-	line-height: 1050px;
 	font-size: 200%;
 	font-weight: bolder;
 	color: white;
@@ -175,6 +173,45 @@ body {
 	}
 	.about-heading {
 		font-size: 125%;
+	}
+	.image-text {
+		font-size: 300%;
+	}
+	.slogan-text {
+		font-size: 150%;
+	}
+}
+
+@media (max-height: 660px) and (max-width: 900px) {
+	.image-text {
+		font-size: 350%;
+		margin-top: 350px;
+	}
+	.slogan-text {
+		font-size: 200%;
+		margin-top: 410px;
+	}
+}
+
+@media (max-height: 570px) and (max-width: 900px)  {
+	.image-text {
+		font-size: 300%;
+		margin-top: 300px;
+	}
+	.slogan-text {
+		font-size: 150%;
+		margin-top: 380px;
+	}
+}
+
+@media (max-height: 490px) and (max-width: 900px)  {
+	.image-text {
+		font-size: 300%;
+		margin-top: 200px;
+	}
+	.slogan-text {
+		font-size: 150%;
+		margin-top: 300px;
 	}
 }
 
