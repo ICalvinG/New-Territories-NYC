@@ -114,6 +114,10 @@ footer {
 	right: 0;
 }
 
+.icons {
+	color: black;
+}
+
 .input-field input[type=text]:focus + label {
 	color: #ef9a9a;
 }
