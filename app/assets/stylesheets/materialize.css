@@ -59,6 +59,11 @@ footer {
 	margin-bottom: 25px;
 }
 
+.menu-section {
+	background-color: #ff9999;
+	padding: .9em;
+}
+
 .image-nav { 
    position: absolute; 
    top: 0; 
