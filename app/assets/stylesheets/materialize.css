@@ -55,6 +55,10 @@ footer {
 	top: 0;
 }
 
+.bb-icon {
+	margin-bottom: 25px;
+}
+
 .image-nav { 
    position: absolute; 
    top: 0; 
