@@ -59,6 +59,11 @@ footer {
 	margin-bottom: 25px;
 }
 
+.menu-section {
+	background-color: #ff9999;
+	padding: .9em;
+}
+
 .image-nav { 
    position: absolute; 
    top: 0; 
@@ -86,6 +91,15 @@ footer {
 
 .contact-heading {
 	font-size: 150%;
+}
+
+.menu-heading {
+	font-size: 200%;
+}
+
+.menu-info {
+	width: 100%;
+	padding: .9em;
 }
 
 .about-heading {

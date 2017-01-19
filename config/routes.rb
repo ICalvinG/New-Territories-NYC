@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
 	resources :website
-	resources :about
+	resources :menu
 	resources :job
 
 	root 'website#index'
