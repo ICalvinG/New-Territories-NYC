@@ -98,10 +98,8 @@ footer {
 }
 
 .menu-info {
-	margin-top: 5%;
-	margin-left: 20%;
-	margin-right: 20%;
-	margin-bottom: 5%;
+	width: 100%;
+	padding: .9em;
 }
 
 .about-heading {
