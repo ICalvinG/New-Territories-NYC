@@ -29,7 +29,7 @@
       <span class="image-nav">
         <nav class="z-depth-0 transparent">
           <div class="nav-wrapper">
-            <a href="<%=root_path%>" class="brand-logo left"><img class="logo" src="/assets/icon.png"></a>
+            <a href="<%=root_path%>" class="brand-logo left"><img class="logo" src="/assets/icon.png" height=120 width=120></a>
             <a href="#" data-activates="dropdown1" class="dropdown-button btn-large btn-flat menu-icon"><i class="material-icons">menu</i></a>
               <span class="nav-heading">
                 <ul class="right menu-line">
@@ -61,10 +61,12 @@
         </nav>
       </span>
         <% if current_page?(root_path) || current_page?(website_index_path) %>
-          <div class="container image-text">New Territories</div>
-          <div class="container slogan-text">Slogan Here</div>
+          <div class="image-text">New Territories</div>
+          <div class="slogan-text">Slogan Here</div>
         <% elsif current_page?(menu_index_path) %>
-          <div class="container image-text">Menu</div>
+          <div class="image-text">Menu</div>
+        <% elsif current_page?(job_index_path) %>
+          <div class="image-text">Jobs</div>
         <% end %>
     </div>   
     <%= yield %>
