@@ -65,6 +65,8 @@
           <div class="container slogan-text">Slogan Here</div>
         <% elsif current_page?(menu_index_path) %>
           <div class="container image-text">Menu</div>
+        <% elsif current_page?(job_index_path) %>
+          <div class="container image-text">Jobs</div>
         <% end %>
     </div>   
     <%= yield %>
