@@ -218,7 +218,7 @@ footer {
 	}
 }
 
-@media (max-width: 700px)  {
+@media (max-width: 750px)  {
 	.image-text {
 		font-size: 300%;
 		margin-top: 250px;
