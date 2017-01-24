@@ -168,6 +168,11 @@ footer {
 	box-shadow: 0 1px 0 0 #ef9a9a;
 }
 
+#google-maps {
+	display: none;
+	margin-top: 50px;
+}
+
 .row-box {
 	width: 100%;
   	margin: 0 auto;	
