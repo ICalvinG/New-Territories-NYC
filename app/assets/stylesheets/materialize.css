@@ -80,7 +80,9 @@ footer {
 	height: 100% !important;
 }
 
-
+.carousel .carousel-item {
+width: 500px !important;
+}
 
 .menu-section {
 	background-color: #ff9999;

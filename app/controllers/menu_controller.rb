@@ -1,6 +1,6 @@
 class MenuController < ApplicationController
   def index
-  	@background_image = "/assets/thaigo.jpg"
+  	@background_image = "/assets/items.jpg"
   	@uni_image = "/assets/uni.jpg"
   	@thaigo_image = "/assets/affogato.jpg"
   	@cny_image = "/assets/cny.jpg"
