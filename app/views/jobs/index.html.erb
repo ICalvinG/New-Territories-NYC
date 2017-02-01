@@ -8,8 +8,6 @@
   <div class="form-box">
     <%= form_for :job, :html => {:class => "col s10"}, url: jobs_path do |f| %>
 
-      <%= render 'errors' %>
-
       <div class="row">
         <div class="input-field col s6">
           <%= f.label :first_name %><br>
@@ -25,6 +23,12 @@
           <%= f.label :email %><br>
           <%= f.text_field :email, placeholder: "Email" %>
         </div>
+      </div>
+      <div class="file-field input-field">
+        <%= f.label :resume, class: "btn red lighten-3" %>
+          <div class="file-path-wrapper">
+            <%= f.file_field :resume, placeholder: "Resume", class: "file-path" %>
+          </div>
       </div>
       <div class="row">
         <%= f.submit "Submit", class: "btn submit-button right" %>
