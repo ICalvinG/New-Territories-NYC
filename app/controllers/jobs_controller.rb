@@ -12,10 +12,8 @@ class JobsController < ApplicationController
    			job = Job.last
    			mail = JobMailer.job_application(job)
    			mail.deliver_now
-    	else
-      		@errors = "Something is wrong, please try again."
-      		render 'index'
+   			redirect_to(jobs_path, :notice => 'Form was successfully sent.')
     	end
   end
-  
+
 end
