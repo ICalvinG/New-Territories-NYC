@@ -35,11 +35,11 @@
                 <ul class="right menu-line">
                   <li><%= link_to 'Home', website_index_path, class: "menu-text" %></li>
                   <li><%= link_to 'Menu', menu_index_path, class: "menu-text" %></li>
-                  <li><%= link_to 'Jobs', job_index_path, class: "menu-text" %></li>
+                  <li><%= link_to 'Jobs', jobs_path, class: "menu-text" %></li>
                   <% if current_page?(menu_index_path) %>
                     <li><%= link_to 'Contact Us', menu_index_path(anchor: "contact"),class: "menu-text" %></li>
-                  <% elsif current_page?(job_index_path) %>
-                    <li><%= link_to 'Contact Us', job_index_path(anchor: "contact"),class: "menu-text" %></li>
+                  <% elsif current_page?(jobs_path) %>
+                    <li><%= link_to 'Contact Us', jobs_path(anchor: "contact"),class: "menu-text" %></li>
                   <% else current_page?(website_index_path) %>
                     <li><%= link_to 'Contact Us', website_index_path(anchor: "contact"),class: "menu-text" %></li>
                   <% end %>                
@@ -48,11 +48,11 @@
                 <ul class="dropdown-content" id="dropdown1">
                   <li><%= link_to 'Home', website_index_path, class: "menu-text" %></li>
                   <li><%= link_to 'Menu', menu_index_path, class: "menu-text" %></li>
-                  <li><%= link_to 'Jobs', job_index_path, class: "menu-text" %></li>
+                  <li><%= link_to 'Jobs', jobs_path, class: "menu-text" %></li>
                   <% if current_page?(menu_index_path) %>
                     <li><%= link_to 'Contact Us', menu_index_path(anchor: "contact"),class: "menu-text" %></li>
-                  <% elsif current_page?(job_index_path) %>
-                    <li><%= link_to 'Contact Us', job_index_path(anchor: "contact"),class: "menu-text" %></li>
+                  <% elsif current_page?(jobs_path) %>
+                    <li><%= link_to 'Contact Us', jobs_path(anchor: "contact"),class: "menu-text" %></li>
                   <% else current_page?(website_index_path) %>
                     <li><%= link_to 'Contact Us', website_index_path(anchor: "contact"),class: "menu-text" %></li>
                   <% end %> 
@@ -65,7 +65,7 @@
           <div class="slogan-text">Stop Making Sense!</div>
         <% elsif current_page?(menu_index_path) %>
           <div class="image-text">Menu</div>
-        <% elsif current_page?(job_index_path) %>
+        <% elsif current_page?(jobs_path) %>
           <div class="image-text">Jobs</div>
         <% end %>
     </div>   

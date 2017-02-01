@@ -5,9 +5,10 @@ class JobMailer < ApplicationMailer
   #
   #   en.job_mailer.job_application.subject
   #
-  def job_application
-    @greeting = "Hi"
+  def job_application(job)
+    @job = job
 
-    mail to: "to@example.org"
+    mail to: "calvinieong1118@gmail.com",
+    	 subject: "New Job Application"
   end
 end
