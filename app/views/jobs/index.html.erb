@@ -24,10 +24,16 @@
           <%= f.text_field :email, placeholder: "Email" %>
         </div>
       </div>
-      <div class="file-field input-field">
-        <%= f.label :resume, class: "btn red lighten-3" %>
-          <div class="file-path-wrapper">
-            <%= f.file_field :resume, placeholder: "Resume", class: "file-path" %>
+      <div class="row">
+        <div class="file-field col s12">
+          <%= f.label :resume, class: "btn red lighten-3 resume-button" %><br>
+          <%= f.file_field :resume, placeholder: "Resume" %>
+        </div>
+      </div>
+      <div class="row">
+          <div class="input-field col s12">
+            <%= f.label :messages %><br>
+            <%= f.text_area :messages, placeholder: "Availability/Other Messages" %>
           </div>
       </div>
       <div class="row">
