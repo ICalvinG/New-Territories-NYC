@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 20170131234558) do
     t.string   "first_name"
     t.string   "last_name"
     t.string   "email"
+    t.binary   "resume"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
