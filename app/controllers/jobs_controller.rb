@@ -14,6 +14,7 @@ class JobsController < ApplicationController
   	@job = Job.new(first_name: param["first_name"], last_name: param["last_name"], email: param["email"], resume: param["resume"])
    	@job.save
    		if @job.save
+        binding.pry
    			job = Job.last
    			mail = JobMailer.job_application(job)
    			mail.deliver_now
