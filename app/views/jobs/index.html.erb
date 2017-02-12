@@ -6,7 +6,7 @@
   </div>
 
   <div class="form-box">
-    <%= form_for :job, :html => {:class => "col s10"}, url: jobs_path do |f| %>
+    <%= form_for :job, :html => {:class => "col s10", :multipart => true }, url: jobs_path do |f| %>
  
       <div class="row">
         <div class="input-field col s6">
