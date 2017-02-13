@@ -71,6 +71,12 @@ footer {
 	margin-top: 50px;
 }
 
+#contact-form {
+	display: none;
+	margin-top: 50px;
+	background-color: white;
+}
+
 #google-maps {
 	position: relative;
 	padding-bottom: 75%;
