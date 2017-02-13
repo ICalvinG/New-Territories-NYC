@@ -5,6 +5,7 @@ class CreateJobs < ActiveRecord::Migration[5.0]
     	t.string :last_name
     	t.string :email
     	t.string :resume
+    	t.string :messages
 
     	t.timestamps
     end

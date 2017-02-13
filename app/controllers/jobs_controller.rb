@@ -11,7 +11,7 @@ class JobsController < ApplicationController
 
   def create
   	param = params["job"]
-  	@job = Job.new(first_name: param["first_name"], last_name: param["last_name"], email: param["email"], resume: param["resume"])
+  	@job = Job.new(first_name: param["first_name"], last_name: param["last_name"], email: param["email"], resume: param["resume"], messages: param["messages"])
    	@job.save
    		if @job.save
    			job = Job.last
