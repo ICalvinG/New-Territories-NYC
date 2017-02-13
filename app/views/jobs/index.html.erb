@@ -26,8 +26,9 @@
       </div>
       <div class="row">
         <div class="file-field col s12">
-          <%= f.label :resume, class: "btn red lighten-3 resume-button" %><br>
-          <%= f.file_field :resume, placeholder: "Resume" %>
+          <%= f.label :resume, class: "btn red lighten-3 resume-button" %>
+          <%= f.file_field :resume, placeholder: "Resume" %>     
+          <input class="file-path validate col s10 right" type="text"/>
         </div>
       </div>
       <div class="row">
@@ -42,44 +43,4 @@
     <% end %>
   </div>
 
- <!--  	<div class="form-box">
-    	<form class="col s10" method="post">
-      		<div class="row">
-        		<div class="input-field col s6">
-          			<input placeholder="First Name" id="first_name" type="text" class="validate">
-          			<label for="first_name">Name</label>
-        		</div>
-        		<div class="input-field col s6">
-          			<input id="last_name" type="text" class="validate">
-          			<label for="last_name">Last Name</label>
-        		</div>
-      		</div>
-      		<div class="row">
-        		<div class="input-field col s12">
-          			<input id="email" type="email" class="validate">
-          			<label for="email">Email</label>
-        		</div>
-      		</div> -->
-<!--         <div class="file-field input-field">
-          <div class="btn red lighten-3">
-            <span>Resume</span>
-            <input type="file">
-          </div>
-          <div class="file-path-wrapper">
-            <input class="file-path validate" type="text">
-          </div>
-        </div>
-        <div class="row">
-        	<div class="input-field col s12">
-          		<textarea id="textarea1" class="materialize-textarea"></textarea>
-          		<label for="textarea1">Availability/Other Messages</label>
-        	</div>
-      	</div> -->
-<!--         <div class="row">
-            <button class="btn submit-button right" type="submit" name="action">Submit
-            <i class="material-icons right">send</i>
-            </button>
-        </div>
-      </form>
-    </div> -->
 </div>
