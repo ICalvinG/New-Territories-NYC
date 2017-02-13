@@ -1,0 +1,30 @@
+<div id="body">
+
+  <div class="form-box">
+    <%= form_for :contact, :html => {:class => "col s10"}, url: contacts_path do |f| %>
+ 
+      <div class="row">
+        <div class="input-field col s12">
+          <%= f.label :full_name %><br>
+          <%= f.text_field :full_name, placeholder: "Full Name" %>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s12">
+          <%= f.label :email %><br>
+          <%= f.text_field :email, placeholder: "Email" %>
+        </div>
+      </div>
+      <div class="row">
+          <div class="input-field col s12">
+            <%= f.label :message %><br>
+            <%= f.text_area :message, placeholder: "What is on your mind?" %>
+          </div>
+      </div>
+      <div class="row">
+        <%= f.submit "Submit", class: "btn submit-button right" %>
+      </div>
+    <% end %>
+  </div>
+
+</div>
