@@ -247,6 +247,14 @@ textarea:focus {
 	.about-heading {
 		font-size: 125%;
 	}
+	.small-logo {
+		height: 100px;
+		width: 100px;
+	}
+	.big-logo {
+		height: 150px;
+		width: 150px;
+	}
 }
 
 @media (max-width: 900px) {
