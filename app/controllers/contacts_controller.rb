@@ -23,13 +23,13 @@ class ContactsController < ApplicationController
   def destroy
     @contact = Contact.find(params[:id])
     @contact.destroy
-    redirect_to contacts_path, notice:  "The contact #{@contact.full_name} has been deleted."
+    redirect_to contacts_path, notice:  "The contact #{@contact.name} has been deleted."
   end
 
   private
 
   def contact_params
-    params.require(:contact).permit(:full_name, :email, :message)
+    params.require(:contact).permit(:name, :email, :message)
   end
 
 end
