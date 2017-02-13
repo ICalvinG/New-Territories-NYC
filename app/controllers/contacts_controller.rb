@@ -16,7 +16,7 @@ class ContactsController < ApplicationController
    			mail = ContactMailer.contact_application(contact)
    			mail.deliver_now
         	@contact.destroy
-   			redirect_to(contacts_path, :notice => 'Form was successfully sent.')
+   			redirect_to(root_path, :notice => 'Form was successfully sent.')
     	end
   end
 
