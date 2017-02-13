@@ -12,10 +12,10 @@ class ContactsController < ApplicationController
   	@contact = Contact.new(contact_params)
    	@contact.save
    		if @contact.save
-   			# contact = Contact.last
-   			# mail = ContactMailer.contact_application(contact)
-   			# mail.deliver_now
-      #   @contact.destroy
+   			contact = Contact.last
+   			mail = ContactMailer.contact_application(contact)
+   			mail.deliver_now
+        	@contact.destroy
    			redirect_to(contacts_path, :notice => 'Form was successfully sent.')
     	end
   end
