@@ -74,6 +74,7 @@ footer {
 #contact-form {
 	display: none;
 	margin-top: 50px;
+	padding: 30px;
 	background-color: white;
 }
 
@@ -130,6 +131,10 @@ footer {
 
 .contact-heading {
 	font-size: 150%;
+}
+
+.contact-form-heading {
+	font-size: 200%;
 }
 
 .menu-heading {
