@@ -7,11 +7,12 @@ class JobMailer < ApplicationMailer
   #
   def job_application(job)
     @job = job
+    extension = @job.resume.file.extension.downcase
 
-    attachments['Resume.pdf'] = File.read("#{@job.resume.path}")
+    attachments["Resume.#{extension}"] = File.read("#{@job.resume.path}")
 
     mail(:to => "calvinieong1118@gmail.com", :subject => "New Job Application") do |formatt| 
-        formatt.text {render :text => "Full Name: #{@job.first_name} #{@job.last_name}\nEmail: #{@job.email}"}
+        formatt.text {render :text => "Full Name: #{@job.first_name} #{@job.last_name}\nEmail: #{@job.email}\nMessages: #{@job.messages}"}
     end.deliver
 
   end
