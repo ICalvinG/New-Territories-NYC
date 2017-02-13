@@ -4,7 +4,7 @@ class ContactMailer < ApplicationMailer
     @contact = contact
 
     mail(:to => "calvinieong1118@gmail.com", :subject => "Contact Us") do |formatt| 
-        formatt.text {render :text => "Full Name: #{@contact.full_name}\nEmail: #{@contact.email}\nMessages: #{@contact.message}"}
+        formatt.text {render :text => "Name: #{@contact.name}\nEmail: #{@contact.email}\nMessages: #{@contact.message}"}
     end.deliver
 
   end
