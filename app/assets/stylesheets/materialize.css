@@ -66,6 +66,17 @@ footer {
 	margin-bottom: 30px;
 }
 
+#google-maps {
+	display: none;
+	margin-top: 50px;
+}
+
+#contact-form {
+	display: none;
+	margin-top: 50px;
+	padding: 30px;
+	background-color: white;
+}
 
 #google-maps {
 	position: relative;
@@ -83,7 +94,7 @@ footer {
 }
 
 .carousel .carousel-item {
-width: 500px !important;
+	width: 500px !important;
 }
 
 .menu-section {
@@ -120,6 +131,10 @@ width: 500px !important;
 
 .contact-heading {
 	font-size: 150%;
+}
+
+.contact-form-heading {
+	font-size: 200%;
 }
 
 .menu-heading {
@@ -190,10 +205,6 @@ textarea:focus {
     outline: none;
 }
 
-#google-maps {
-	display: none;
-	margin-top: 50px;
-}
 
 .row-box {
 	width: 100%;
