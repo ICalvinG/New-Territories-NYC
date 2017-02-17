@@ -116,8 +116,16 @@ footer {
 	margin-right: 30px;
 }*/
 
+.left-menu-line {
+	margin-left: 30%;
+}
+
+.right-menu-line {
+	margin-right: 23%;
+}
+
 .menu-text {
-	color: #D4AF37;
+	color: black;
 	font-weight: bolder;
 }
 
