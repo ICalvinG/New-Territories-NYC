@@ -29,12 +29,6 @@ footer {
 	top: 0;
 }
 
-
-#google-maps {
-	display: none;
-	margin-top: 50px;
-}
-
 #contact-form {
 	display: none;
 	margin-top: 50px;
@@ -47,6 +41,9 @@ footer {
 	padding-bottom: 75%;
 	height: 0;
 	overflow: hidden;
+/*Version One
+	display: none;
+	margin-top: 50px;*/
 }
     
 #google-maps iframe {
@@ -180,6 +177,10 @@ footer {
     border-style: inset;
     border-width: 0.01em;
     border-color: black;
+}
+
+.footer-info {
+	margin-top: 50px;
 }
 
 .section-box {
