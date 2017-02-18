@@ -21,34 +21,6 @@ footer {
 	width: 100%;
 }
 
-.image { 
-   position: relative; 
-   width: 100%; 
-}
-
-.image-text{
-	position: absolute;
-	top: 0;
-	margin-top: 360px;
-	width: 100%;
-	text-align: center;
-	vertical-align:middle;
-	font-size: 450%;
-	font-weight: bolder;
-	color: white;
-}
-
-.slogan-text{
-	position: absolute;
-	top: 0;
-	margin-top: 450px;
-	width: 100%;
-	text-align: center;
-	vertical-align:middle;
-	font-size: 200%;
-	font-weight: bolder;
-	color: white;
-}
 
 .brand-logo {
 	position: absolute;
@@ -57,14 +29,6 @@ footer {
 	top: 0;
 }
 
-.news-icon {
-	margin-bottom: 25px;
-	margin-left: 20px;
-}
-
-.popsugar-logo {
-	margin-bottom: 30px;
-}
 
 #google-maps {
 	display: none;
@@ -97,12 +61,36 @@ footer {
 	width: 500px !important;
 }
 
-.menu-section {
-	background-color: #ffefc1;
-	padding: 80px;
-}
 
 /* Version One 
+.image { 
+   position: relative; 
+   width: 100%; 
+}
+
+.image-text{
+	position: absolute;
+	top: 0;
+	margin-top: 360px;
+	width: 100%;
+	text-align: center;
+	vertical-align:middle;
+	font-size: 450%;
+	font-weight: bolder;
+	color: white;
+}
+
+.slogan-text{
+	position: absolute;
+	top: 0;
+	margin-top: 450px;
+	width: 100%;
+	text-align: center;
+	vertical-align:middle;
+	font-size: 200%;
+	font-weight: bolder;
+	color: white;
+}
 
 .image-nav { 
    position: absolute; 
@@ -154,6 +142,11 @@ footer {
 	padding: .9em;
 }
 
+.menu-section {
+	background-color: #ffefc1;
+	padding: 80px;
+}
+
 .about-heading {
 	font-size: 200%;
 	color: #ec407a;
@@ -164,12 +157,23 @@ footer {
 	color: #ec407a;
 }
 
-.news-section {
+.section-box {
 	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
 	margin-bottom: 5%;
 }
 
-.about-line {
+.news-icon {
+	margin-bottom: 25px;
+	margin-left: 20px;
+}
+
+.popsugar-logo {
+	margin-bottom: 30px;
+}
+
+.heading-line {
     display: block;
     width: 13%;
     margin-left: auto;
@@ -177,13 +181,6 @@ footer {
     border-style: inset;
     border-width: 0.01em;
     border-color: #ec407a;
-}
-
-.about-info {
-	margin-top: 5%;
-	margin-left: 20%;
-	margin-right: 20%;
-	margin-bottom: 5%;
 }
 
 .index-info {
