@@ -160,6 +160,16 @@ footer {
 	color: #ec407a;
 }
 
+.about-line {
+    display: block;
+    width: 13%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 0.01em;
+    border-color: #ec407a;
+}
+
 .about-info {
 	margin-top: 5%;
 	margin-left: 20%;
