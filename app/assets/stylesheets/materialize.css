@@ -17,10 +17,10 @@ footer {
 	width: 100%;
 }
 
-.copyright {
-	width: 100%;
-}
 
+.nav-wrapper {
+	background-color: #ffefc1;
+}
 
 .brand-logo {
 	position: absolute;
@@ -104,6 +104,9 @@ footer {
 	margin-left: 20px;
 }
 
+.copyright {
+	width: 100%;
+}
 }*/
 
 .left-menu-line {
