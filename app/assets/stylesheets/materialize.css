@@ -98,10 +98,8 @@ footer {
 }
 
 .menu-section {
-	background-color: #ff9999;
-	padding: .9em;
-	border-top: 10px solid #E5C100;
-	border-bottom: 10px solid #E5C100;
+	background-color: #ffefc1;
+	padding: 80px;
 }
 
 .image-nav { 
