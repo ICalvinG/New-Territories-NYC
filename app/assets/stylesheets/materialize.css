@@ -29,12 +29,6 @@ footer {
 	top: 0;
 }
 
-#contact-form {
-	display: none;
-	margin-top: 50px;
-	padding: 30px;
-	background-color: white;
-}
 
 #google-maps {
 	position: relative;
@@ -107,6 +101,18 @@ footer {
 .copyright {
 	width: 100%;
 }
+
+#contact-form {
+	display: none;
+	margin-top: 50px;
+	padding: 30px;
+	background-color: white;
+}
+
+.contact-form-heading {
+	font-size: 200%;
+}
+
 }*/
 
 .left-menu-line {
@@ -135,9 +141,6 @@ footer {
 	font-size: 150%;
 }
 
-.contact-form-heading {
-	font-size: 200%;
-}
 
 .menu-heading {
 	font-size: 200%;
