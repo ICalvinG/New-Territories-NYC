@@ -116,11 +116,11 @@ footer {
 }*/
 
 .left-menu-line {
-	margin-left: 30%;
+	margin-left: 23%;
 }
 
 .right-menu-line {
-	margin-right: 23%;
+	margin-right: 15%;
 }
 
 .menu-text {
@@ -308,7 +308,7 @@ textarea:focus {
 	background-color: #ef9a9a;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 700px) {
 	.index-heading {
         font-size: 125%;
     }
