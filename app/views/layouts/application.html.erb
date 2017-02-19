@@ -26,21 +26,24 @@
   <body>
   <nav>
     <div class="nav-wrapper">
-      <ul class="left left-menu-line">
-        <li><%= link_to 'Home', website_index_path, class: "menu-text" %></li>
-        <li><%= link_to 'Menu', menu_index_path, class: "menu-text" %></li>
-      </ul>
-      <a href="<%=root_path%>" class="brand-logo center"><img class="logo" src="/assets/icon.png" height=120 width=120></a>
-      <ul class="right right-menu-line">
-        <li><%= link_to 'Jobs', jobs_path, class: "menu-text" %></li>
-          <% if current_page?(menu_index_path) %>
-            <li><%= link_to 'Contact Us', menu_index_path(anchor: "contact"), class: "menu-text" %></li>
-          <% elsif current_page?(jobs_path) %>
-            <li><%= link_to 'Contact Us', jobs_path(anchor: "contact"), class: "menu-text" %></li>
-          <% else current_page?(website_index_path) %>
-            <li><%= link_to 'Contact Us', website_index_path(anchor: "contact"), class: "menu-text" %></li>
-          <% end %>                
-      </ul>
+      <a href="#" data-activates="dropdown1" class="dropdown-button btn-large btn-flat menu-icon"><i class="material-icons">menu</i></a>
+        <span class="nav-heading">
+          <ul class="left left-menu-line">
+            <li><%= link_to 'ABOUT', website_index_path(anchor: "about"), class: "menu-text" %></li>
+            <li><%= link_to 'MENU', website_index_path(anchor: "menu"), class: "menu-text" %></li>
+          </ul>
+          <a href="<%=root_path%>" class="brand-logo center"><img class="logo" src="/assets/icon.png" height=120 width=120></a>
+          <ul class="right right-menu-line">
+            <li><%= link_to 'HIT US UP', website_index_path(anchor: "contact"), class: "menu-text" %></li>
+            <li><%= link_to 'THE BUZZ', website_index_path(anchor: "news"), class: "menu-text" %></li>             
+          </ul>              
+        </span>
+          <ul class="dropdown-content" id="dropdown1">
+            <li><%= link_to 'ABOUT', website_index_path(anchor: "about"), class: "menu-text" %></li>
+            <li><%= link_to 'MENU', website_index_path(anchor: "menu"), class: "menu-text" %></li>
+            <li><%= link_to 'HIT US UP', website_index_path(anchor: "contact"), class: "menu-text" %></li>
+            <li><%= link_to 'THE BUZZ', website_index_path(anchor: "news"), class: "menu-text" %></li> 
+            </ul>
     </div>
   </nav>
 

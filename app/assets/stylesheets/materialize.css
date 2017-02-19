@@ -29,12 +29,6 @@ footer {
 	top: 0;
 }
 
-#contact-form {
-	display: none;
-	margin-top: 50px;
-	padding: 30px;
-	background-color: white;
-}
 
 #google-maps {
 	position: relative;
@@ -107,14 +101,26 @@ footer {
 .copyright {
 	width: 100%;
 }
+
+#contact-form {
+	display: none;
+	margin-top: 50px;
+	padding: 30px;
+	background-color: white;
+}
+
+.contact-form-heading {
+	font-size: 200%;
+}
+
 }*/
 
 .left-menu-line {
-	margin-left: 30%;
+	margin-left: 23%;
 }
 
 .right-menu-line {
-	margin-right: 23%;
+	margin-right: 15%;
 }
 
 .menu-text {
@@ -135,9 +141,6 @@ footer {
 	font-size: 150%;
 }
 
-.contact-form-heading {
-	font-size: 200%;
-}
 
 .menu-heading {
 	font-size: 200%;
@@ -252,7 +255,6 @@ footer {
 .menu-icon {
 	visibility: hidden;
 	position: absolute;
-	margin-top: 30px;
 	right: 0;
 }
 
@@ -305,16 +307,13 @@ textarea:focus {
 	background-color: #ef9a9a;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 700px) {
 	.index-heading {
         font-size: 125%;
     }
     .nav-heading {
     	display: none;
     }
-    .logo {
-		display: none;
-	}
     .menu-icon {
     	visibility: visible;
     }
@@ -333,7 +332,7 @@ textarea:focus {
 	}
 }
 
-@media (max-width: 900px) {
+/*@media (max-width: 900px) {
 	.image-text {
 		font-size: 350%;
 		margin-top: 300px;
@@ -406,4 +405,4 @@ textarea:focus {
 		font-size: 150%;
 		margin-top: 310px;
 	}
-}
+}*/
