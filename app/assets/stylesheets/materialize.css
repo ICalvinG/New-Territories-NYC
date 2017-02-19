@@ -314,9 +314,6 @@ textarea:focus {
     .nav-heading {
     	display: none;
     }
-    .logo {
-		display: none;
-	}
     .menu-icon {
     	visibility: visible;
     }
