@@ -255,7 +255,7 @@ footer {
 .menu-icon {
 	visibility: hidden;
 	position: absolute;
-	margin-top: 30px;
+	margin-top: 10px;
 	right: 0;
 }
 
@@ -336,7 +336,7 @@ textarea:focus {
 	}
 }
 
-@media (max-width: 900px) {
+/*@media (max-width: 900px) {
 	.image-text {
 		font-size: 350%;
 		margin-top: 300px;
@@ -409,4 +409,4 @@ textarea:focus {
 		font-size: 150%;
 		margin-top: 310px;
 	}
-}
+}*/
