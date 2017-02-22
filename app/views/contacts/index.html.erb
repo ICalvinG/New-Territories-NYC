@@ -3,33 +3,32 @@
     <img class="responsive-img" src="<%=@background_image%>">
   </div>
 </div>
-	<div class="center-align">
-		<span class="contact-form-heading bold">We want to hear from you!</span><br><br>
-	</div>
-
+<div class="center-align">
+    <span class="about-heading bold">CONTACT US</span>
+    <hr class="heading-line">
 	<div class="form-box">
-	    <%= form_for :contact, :html => {:class => "col s10"}, url: contacts_path do |f| %>
+	<%= form_for :contact, :html => {:class => "col s10"}, url: contacts_path do |f| %>
 	 
-	      <div class="row">
-	        <div class="input-field col s12">
-	          <%= f.label :name %><br>
-	          <%= f.text_field :name, placeholder: "Name" %>
-	        </div>
+	  <div class="row">
+	    <div class="input-field col s12">
+	      <%= f.label :name %><br>
+	      <%= f.text_field :name, placeholder: "Name" %>
+	    </div>
+	  </div>
+	  <div class="row">
+	    <div class="input-field col s12">
+	      <%= f.label :email %><br>
+	      <%= f.text_field :email, placeholder: "Email" %>
+	    </div>
+	  </div>
+	  <div class="row">
+	      <div class="input-field col s12">
+	        <%= f.label :message %><br>
+	        <%= f.text_area :message, placeholder: "What is on your mind?" %>
 	      </div>
-	      <div class="row">
-	        <div class="input-field col s12">
-	          <%= f.label :email %><br>
-	          <%= f.text_field :email, placeholder: "Email" %>
-	        </div>
-	      </div>
-	      <div class="row">
-	          <div class="input-field col s12">
-	            <%= f.label :message %><br>
-	            <%= f.text_area :message, placeholder: "What is on your mind?" %>
-	          </div>
-	      </div>
-	      <div class="row">
-	        <%= f.submit "Submit", class: "btn submit-button right" %>
-	      </div>
-	    <% end %>
-  	</div>
+	  </div>
+	  <div class="row">
+	   <%= f.submit "Submit", class: "btn submit-button right" %>
+	  </div>
+	<% end %>
+</div>
