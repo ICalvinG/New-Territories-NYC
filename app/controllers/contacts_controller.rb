@@ -1,6 +1,7 @@
 class ContactsController < ApplicationController
   
   def index
+    @background_image = "/assets/store.jpg"
     @contacts = Contact.all
   end
 
