@@ -138,9 +138,13 @@ footer {
 }
 
 .contact-heading {
-	font-size: 150%;
+	font-size: 200%;
+	color: #ec407a;
 }
 
+.contact-box {
+	margin-top: 5%;
+}
 
 .menu-heading {
 	font-size: 200%;
@@ -300,11 +304,11 @@ textarea:focus {
 }
 
 .submit-button {
-	background-color: #ef9a9a;
+	background-color: #ec407a;
 }
 
 .submit-button:hover {
-	background-color: #ef9a9a;
+	background-color: #ec407a;
 }
 
 @media (max-width: 700px) {
