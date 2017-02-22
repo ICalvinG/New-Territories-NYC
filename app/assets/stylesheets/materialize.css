@@ -27,8 +27,8 @@ footer {
 	margin-left: 20px;
 	margin-top: 20px;
 	top: 0;
+	z-index: 10000;
 }
-
 
 #google-maps {
 	position: relative;
