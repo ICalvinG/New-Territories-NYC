@@ -91,6 +91,7 @@ footer {
 }
 
 .menu-section {
+	background-color: #ffefc1;
 	padding: 80px;
 }
 
@@ -139,7 +140,6 @@ footer {
 }
 
 .about-section {
-	background-color: #ffefc1;
 	padding: 80px;
 }
 
