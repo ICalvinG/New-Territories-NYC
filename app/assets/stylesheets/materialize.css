@@ -30,6 +30,62 @@ footer {
 	z-index: 10000;
 }
 
+#promo-video {
+    top: 0;
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    margin-bottom: 0;
+}
+
+.promo-fade {
+   opacity: .95;
+   margin-bottom: 0;
+   padding-bottom: 0;
+   height: 100%;
+}
+
+#overlay {
+  position: absolute;
+  top: 17%;
+  color: #FFF;
+  text-align: center;
+  padding: 10px 0;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%
+}
+
+.overlay-button {
+	display: none;
+}
+
+.volume-off {
+	position: absolute;
+	color: white;
+	top: 2%;
+	font-size: 32px;
+	right: 20px;
+	z-index: 1;
+	display: none;
+}
+
+.volume-button {
+	position: absolute;
+	color: white;
+	top: 2%;
+	font-size: 32px;
+	right: 10px;
+	z-index: 1;
+}
+
+.parallax-container {
+	display: none;
+}
+
 #google-maps {
 	position: relative;
 	padding-bottom: 75%;
@@ -91,6 +147,7 @@ footer {
 }
 
 .menu-section {
+	background-color: #ffefc1;
 	padding: 80px;
 }
 
@@ -139,7 +196,6 @@ footer {
 }
 
 .about-section {
-	background-color: #ffefc1;
 	padding: 80px;
 }
 
@@ -247,79 +303,28 @@ textarea:focus {
 		height: 100px;
 		width: 100px;
 	}
-}
-
-/*@media (max-width: 900px) {
-	.image-text {
-		font-size: 350%;
-		margin-top: 300px;
+	.parallax-container {
+		display: block;
 	}
-	.slogan-text {
-		font-size: 200%;
-		margin-top: 380px;
+	.video {
+		display: none;
 	}
 }
 
-@media (max-width: 750px)  {
-	.image-text {
-		font-size: 300%;
-		margin-top: 250px;
-	}
-	.slogan-text {
-		font-size: 150%;
-		margin-top: 310px;
+@media (max-width: 1200px) {
+	#overlay {
+		top: 14%;
 	}
 }
 
-@media (max-width: 600px)  {
-	.image-text {
-		font-size: 200%;
-		margin-top: 200px;
-	}
-	.slogan-text {
-		font-size: 150%;
-		margin-top: 250px;
+@media (max-width: 1000px) {
+	#overlay {
+		top: 10%;
 	}
 }
 
-@media (max-width: 500px)  {
-	.image-text {
-		font-size: 200%;
-		margin-top: 150px;
-	}
-	.slogan-text {
-		font-size: 150%;
-		margin-top: 200px;
+@media (max-width: 850px) {
+	#overlay {
+		top: 8%;
 	}
 }
-
-@media (max-width: 414px) {
-	.image-text {
-		font-size: 200%;
-		margin-top: 100px;
-	}
-	.slogan-text {
-		font-size: 150%;
-		margin-top: 140px;
-	}
-}
-
-@media (min-width: 1200px) {
-	.image-text {
-		margin-left: 65px;
-	}
-	.slogan-text {
-		margin-left: 65px;
-	}
-}
-
-@media (width: 768px) and (height: 1024px) {
-	.image-text {
-		font-size: 300%;
-		margin-top: 250px;
-	}
-	.slogan-text {
-		font-size: 150%;
-		margin-top: 310px;
-	}
-}*/
