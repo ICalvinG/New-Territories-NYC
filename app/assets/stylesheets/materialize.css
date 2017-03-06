@@ -30,6 +30,23 @@ footer {
 	z-index: 10000;
 }
 
+#promo-video {
+    top: 0;
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    margin-bottom: 0;
+}
+
+.promo-fade {
+   opacity: .95;
+   margin-bottom: 0;
+   padding-bottom: 0;
+   height: 100%;
+}
+
 #google-maps {
 	position: relative;
 	padding-bottom: 75%;
