@@ -47,6 +47,18 @@ footer {
    height: 100%;
 }
 
+#overlay {
+  position: absolute;
+  top: 17%;
+  color: #FFF;
+  text-align: center;
+  padding: 10px 0;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%
+}
+
 .parallax-container {
 	display: none;
 }
@@ -273,5 +285,23 @@ textarea:focus {
 	}
 	.video {
 		display: none;
+	}
+}
+
+@media (max-width: 1200px) {
+	#overlay {
+		top: 14%;
+	}
+}
+
+@media (max-width: 1000px) {
+	#overlay {
+		top: 10%;
+	}
+}
+
+@media (max-width: 850px) {
+	#overlay {
+		top: 8%;
 	}
 }
