@@ -19,13 +19,13 @@ footer {
 
 
 .nav-wrapper {
-	background-color: #ffefc1;
+	background-color: #FEF9E0;
 }
 
 .brand-logo {
 	position: absolute;
 	margin-left: 20px;
-	margin-top: 20px;
+	margin-top: 1px;
 	top: 0;
 	z-index: 10000;
 }
@@ -147,7 +147,7 @@ footer {
 }
 
 .menu-section {
-	background-color: #ffefc1;
+	background-color: white;
 	padding: 80px;
 }
 
@@ -162,11 +162,11 @@ footer {
 }
 
 #new-footer {
-	background-color: #ffefc1;
+	background-color: #FEF9E0;
 }
 
 #new-footer-copyright {
-	background-color: #ffefc1;	
+	background-color: #FEF9E0;	
 }
 
 .footer-heading {
@@ -196,6 +196,7 @@ footer {
 }
 
 .about-section {
+	background-color: #FEF9E0;	
 	padding: 80px;
 }
 

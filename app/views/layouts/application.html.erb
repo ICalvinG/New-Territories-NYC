@@ -37,7 +37,7 @@
           <a href="<%=root_path%>" class="brand-logo center"><img class="logo" src="/assets/icon.png" height=120 width=120></a>
           <% if current_page?(root_path) %>
             <ul class="right right-menu-line">
-              <li><%= link_to 'HIT US UP', contacts_path, class: "menu-text" %></li>
+              <li><%= link_to 'HIT US UP', root_path(anchor: "contact"), class: "menu-text" %></li>
               <li><%= link_to 'THE BUZZ', root_path(anchor: "news"), class: "menu-text" %></li>             
             </ul> 
           <% end %>             
