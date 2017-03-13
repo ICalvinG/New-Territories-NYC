@@ -68,25 +68,6 @@ footer {
 	display: none;
 }
 
-.volume-off {
-	position: absolute;
-	color: white;
-	top: 2%;
-	font-size: 32px;
-	right: 20px;
-	z-index: 1;
-	display: none;
-}
-
-.volume-button {
-	position: absolute;
-	color: white;
-	top: 2%;
-	font-size: 32px;
-	right: 10px;
-	z-index: 1;
-}
-
 .parallax-container {
 	display: none;
 }
