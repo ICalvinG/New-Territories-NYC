@@ -303,20 +303,8 @@ textarea:focus {
 	}
 }
 
-@media (max-width: 1200px) {
-	#overlay {
-		top: 14%;
-	}
-}
-
 @media (max-width: 1000px) {
 	#overlay {
-		top: 10%;
-	}
-}
-
-@media (max-width: 850px) {
-	#overlay {
-		top: 8%;
+		top: 6%;
 	}
 }
