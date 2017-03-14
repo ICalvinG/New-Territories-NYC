@@ -295,10 +295,7 @@ textarea:focus {
 		height: 100px;
 		width: 100px;
 	}
-	.parallax-container {
-		display: block;
-	}
-	.video {
+	#overlay {
 		display: none;
 	}
 }
