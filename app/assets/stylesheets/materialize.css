@@ -298,6 +298,9 @@ textarea:focus {
 	#overlay {
 		display: none;
 	}
+	.videoWrapper {
+		padding-bottom: 51%;
+	}
 }
 
 @media (max-width: 1000px) {
