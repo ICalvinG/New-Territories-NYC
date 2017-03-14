@@ -54,14 +54,20 @@ footer {
 
 #overlay {
   position: absolute;
-  top: 17%;
+  top: 11%;
   color: #FFF;
   text-align: center;
   padding: 10px 0;
   z-index: 1;
   margin-left: auto;
   margin-right: auto;
-  width: 100%
+  width: 100%;
+  border: 10px solid black;
+}
+
+#overlay h5 {
+  margin-top: 0;
+  font-size: 4vmin;
 }
 
 .overlay-button {
