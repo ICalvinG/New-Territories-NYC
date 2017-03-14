@@ -54,14 +54,19 @@ footer {
 
 #overlay {
   position: absolute;
-  top: 17%;
+  top: 11%;
   color: #FFF;
   text-align: center;
   padding: 10px 0;
   z-index: 1;
   margin-left: auto;
   margin-right: auto;
-  width: 100%
+  width: 100%;
+}
+
+#overlay h5 {
+  margin-top: 0;
+  font-size: 4vmin;
 }
 
 .overlay-button {
@@ -134,7 +139,7 @@ footer {
 
 .menu-section {
 	background-color: #FEF9E0;	
-	padding: 80px;
+	padding: 50px;
 }
 
 .about-heading {
@@ -290,28 +295,16 @@ textarea:focus {
 		height: 100px;
 		width: 100px;
 	}
-	.parallax-container {
-		display: block;
-	}
-	.video {
+	#overlay {
 		display: none;
 	}
-}
-
-@media (max-width: 1200px) {
-	#overlay {
-		top: 14%;
+	.videoWrapper {
+		padding-bottom: 51%;
 	}
 }
 
 @media (max-width: 1000px) {
 	#overlay {
-		top: 10%;
-	}
-}
-
-@media (max-width: 850px) {
-	#overlay {
-		top: 8%;
+		top: 6%;
 	}
 }
