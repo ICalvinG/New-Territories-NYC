@@ -313,6 +313,13 @@ textarea:focus {
 	}
 }
 
+@media (max-width: 950px) {
+	.videoWrapper {
+		padding-bottom: 53%;
+	}
+}
+
+
 @media (max-width: 450px) {
 	#overlay {
 		top: 2%;
