@@ -324,3 +324,13 @@ textarea:focus {
 		display: block;
 	}
 }
+
+@media (max-width: 320px) {
+	#overlay {
+		top: 2%;
+		display: block;
+	}
+	#overlay .container h1 {
+		font-size: 200%;
+	}
+}
