@@ -9,7 +9,6 @@ group :development do
 end
 group :production do
   gem 'pg'
-  gem 'rails_12factor'
 end
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
@@ -22,6 +21,7 @@ gem 'coffee-rails', '~> 4.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
+gem 'heroku_secrets', github: 'alexpeattie/heroku_secrets'
 
 # Use carrier wave for resume attachment
 gem 'carrierwave'
