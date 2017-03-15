@@ -1,5 +1,5 @@
 class WebsiteController < ApplicationController
   def index
-  	@background_image = "/assets/unicorn.jpg"
+  	@background_image = "/assets/thaigo.jpg"
   end
 end
