@@ -73,7 +73,7 @@ footer {
 	display: none;
 }
 
-.parallax-container {
+.image-container {
 	display: none;
 }
 
@@ -306,5 +306,21 @@ textarea:focus {
 @media (max-width: 1000px) {
 	#overlay {
 		top: 6%;
+	}
+}
+
+@media (max-width: 450px) {
+	#overlay {
+		top: 2%;
+		display: block;
+	}
+	#overlay .container h1 {
+		font-size: 350%;
+	}
+	.video {
+		display: none;
+	}
+	.image-container {
+		display: block;
 	}
 }
