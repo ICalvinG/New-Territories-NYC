@@ -89,8 +89,6 @@ GEM
     mime-types-data (3.2016.0521)
     mini_portile2 (2.1.0)
     minitest (5.10.1)
-    mobylette (3.5)
-      actionpack (>= 3.0)
     multi_json (1.12.1)
     nio4r (1.2.1)
     nokogiri (1.7.0.1)
@@ -185,7 +183,6 @@ DEPENDENCIES
   jquery-rails
   listen (~> 3.0.5)
   materialize-sass
-  mobylette
   pg
   pry
   puma (~> 3.0)

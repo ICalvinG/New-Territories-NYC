@@ -1,10 +1,12 @@
-<div class="promo-container">
-    <div class="videoWrapper">
-        <iframe id="player" src="https://www.youtube.com/embed/0aOIZXSATik?controls=0&showinfo=0&rel=0&fs=1&autoplay=1" frameborder="0" allowfullscreen></iframe>
+<div class="promo-container hide-on-med-and-down">
+    <div class="promo-fade">
+        <video autoplay muted id="promo-video">
+          <source <%= video_tag( 'NT30sec.mp4' ) %>
+        </video>
     </div>
     <div id="overlay">
         <div class="container">
-            <h1>New Territories NYC</h1>
+            <p>New Territories NYC</p>
             <h5>Stop Making Sense!</h5>
         </div>
     </div>
