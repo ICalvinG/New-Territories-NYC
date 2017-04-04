@@ -298,7 +298,7 @@ video {
 
 /* End Video Styling*/
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
 	.index-heading {
         font-size: 125%;
     }
