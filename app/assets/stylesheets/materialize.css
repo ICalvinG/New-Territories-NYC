@@ -30,6 +30,10 @@ footer {
 	z-index: 10000;
 }
 
+.mobile-logo {
+	display: none;
+}
+
 .image-container {
 	display: none;
 }
@@ -320,6 +324,9 @@ video {
 	.news-icon {
 		height: 100px;
 		width: 100px;
+	}
+	.mobile-logo {
+		display: block;
 	}
 }
 
