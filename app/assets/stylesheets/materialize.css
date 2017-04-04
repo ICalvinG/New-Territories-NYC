@@ -30,6 +30,10 @@ footer {
 	z-index: 10000;
 }
 
+.mobile-logo {
+	display: none;
+}
+
 .image-container {
 	display: none;
 }
@@ -298,7 +302,7 @@ video {
 
 /* End Video Styling*/
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
 	.index-heading {
         font-size: 125%;
     }
@@ -320,6 +324,9 @@ video {
 	.news-icon {
 		height: 100px;
 		width: 100px;
+	}
+	.mobile-logo {
+		display: block;
 	}
 }
 
