@@ -30,49 +30,6 @@ footer {
 	z-index: 10000;
 }
 
-.videoWrapper {
-	position: relative;
-	padding-bottom: 54.5%;
-	padding-top: 25px;
-	height: 0;
-}
-
-.videoWrapper iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-.promo-fade {
-   opacity: .95;
-   margin-bottom: 0;
-   padding-bottom: 0;
-   height: 100%;
-}
-
-#overlay {
-  position: absolute;
-  top: 11%;
-  color: #FFF;
-  text-align: center;
-  padding: 10px 0;
-  z-index: 1;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-}
-
-#overlay h5 {
-  margin-top: 0;
-  font-size: 4vmin;
-}
-
-.overlay-button {
-	display: none;
-}
-
 .image-container {
 	display: none;
 }
@@ -276,6 +233,74 @@ textarea:focus {
 	background-color: #ec407a;
 }
 
+/* Video Styling  */
+
+.promo-container {
+  top: -4em;
+}
+
+#promo-video {
+    top: 0;
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    margin-bottom: 0;
+}
+
+#overlay {
+  position: absolute;
+  top: 8%;
+  color: #FFF;
+  text-align: center;
+  padding: 10px 0;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%
+}
+
+#mobile-top-p {
+  font-size: 1em !important;
+}
+
+
+#overlay p {
+  font-size: 18vmin;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+#overlay h5 {
+  margin-top: 0;
+  font-size: 4vmin;
+}
+
+#overlay a {
+  margin-top: 4em;
+}
+
+video {
+    display: inline-block;
+    position: fixed;
+}
+.promo-fade {
+  opacity: .95;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  height: 100%;
+}
+
+.promo-container .pattern-overlay {
+background-color: rgba(71, 71, 71, 0.59);
+padding: 110px 0 32px;
+min-height: 496px;
+padding-bottom: 0;
+margin-bottom: 0;
+}
+/* End Video Styling*/
+
 @media (max-width: 700px) {
 	.index-heading {
         font-size: 125%;
@@ -299,49 +324,12 @@ textarea:focus {
 		height: 100px;
 		width: 100px;
 	}
-	#overlay {
-		display: none;
-	}
-	.videoWrapper {
-		padding-bottom: 51%;
-	}
-}
-
-@media (max-width: 1000px) {
-	#overlay {
-		top: 6%;
-	}
-}
-
-@media (max-width: 950px) {
-	.videoWrapper {
-		padding-bottom: 53%;
-	}
 }
 
 
 @media (max-width: 450px) {
-	#overlay {
-		top: 2%;
-		display: block;
-	}
-	#overlay .container h1 {
-		font-size: 350%;
-	}
-	.video {
-		display: none;
-	}
+
 	.image-container {
 		display: block;
-	}
-}
-
-@media (max-width: 320px) {
-	#overlay {
-		top: 2%;
-		display: block;
-	}
-	#overlay .container h1 {
-		font-size: 200%;
 	}
 }
