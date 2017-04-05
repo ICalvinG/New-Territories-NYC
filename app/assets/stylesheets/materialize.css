@@ -255,7 +255,7 @@ textarea:focus {
 
 #overlay {
   position: absolute;
-  top: 8%;
+  top: 9%;
   color: #FFF;
   text-align: center;
   padding: 10px 0;
@@ -301,7 +301,7 @@ video {
 
 /* End Video Styling*/
 
-@media (max-width: 750px) {
+@media (max-width: 770px) {
 	.index-heading {
         font-size: 125%;
     }
