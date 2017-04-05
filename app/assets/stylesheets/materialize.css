@@ -282,7 +282,6 @@ textarea:focus {
 
 video {
     display: inline-block;
-    position: fixed;
 }
 
 .promo-fade {
