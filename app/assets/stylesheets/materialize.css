@@ -22,12 +22,17 @@ footer {
 	background-color: #FEF9E0;
 }
 
+.navbar-links li a {
+	color: black;
+}
+
 .brand-logo {
 	position: absolute;
 	margin-left: 20px;
 	margin-top: 1px;
 	top: 0;
 	z-index: 10000;
+	color: black !important;
 }
 
 .mobile-logo {
