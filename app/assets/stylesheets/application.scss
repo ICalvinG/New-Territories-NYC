@@ -1,1 +1,24 @@
-@import "materialize";
+@charset 'utf-8';
+
+/*------------------------------------*\
+    Application Stylesheet
+\*------------------------------------*/
+
+@import 'materialize';
+
+/** Layout **/
+
+@import 'layout/footer',
+        'layout/header',
+        'layout/main';
+
+/** Pages **/
+
+@import 'pages/index';
+
+/** Components **/
+
+@import 'components/google',
+        'components/logo',
+        'components/menu',
+        'components/video';

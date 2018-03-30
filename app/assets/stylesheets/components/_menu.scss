@@ -1,0 +1,40 @@
+/*------------------------------------*\
+    Menu
+\*------------------------------------*/
+
+.left-menu-line {
+	margin-left: 23%;
+}
+
+.right-menu-line {
+	margin-right: 15%;
+}
+
+.menu-text {
+	color: black;
+	font-weight: bolder;
+}
+
+.dropdown-content .menu-text {
+	color: black;
+	font-weight: bold;
+}
+
+.menu-heading {
+	font-size: 200%;
+}
+
+.menu-info {
+	width: 100%;
+	padding: .9em;
+}
+
+.menu-icon {
+	visibility: hidden;
+	position: absolute;
+	right: 0;
+}
+
+@media (max-width: 770px) {
+  .menu-icon { visibility: visible; }
+}
