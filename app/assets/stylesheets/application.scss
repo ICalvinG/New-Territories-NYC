@@ -14,11 +14,15 @@
 
 /** Pages **/
 
-@import 'pages/index';
+@import 'pages/contact',
+        'pages/index',
+        'pages/job';
 
 /** Components **/
 
-@import 'components/google',
+@import 'components/about',
+        'components/google',
         'components/logo',
         'components/menu',
+        'components/news',
         'components/video';
