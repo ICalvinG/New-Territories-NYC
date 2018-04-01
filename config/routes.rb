@@ -1,10 +1,5 @@
 Rails.application.routes.draw do
+  resources :index_page
 
-	resources :website
-	resources :menu
-	resources :jobs
-	resources :contacts
-
-	root 'website#index'
-
+  root 'index_page#index'
 end
