@@ -1,0 +1,17 @@
+/*------------------------------------*\
+    Index
+\*------------------------------------*/
+
+.index-heading {
+    font-size: 200%;
+}
+
+.index-info {
+	margin: 10%;
+}
+
+@media (max-width: 770px) {
+  .index-heading {
+    font-size: 125%;
+  }
+}

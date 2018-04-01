@@ -1,0 +1,29 @@
+/*------------------------------------*\
+    About
+\*------------------------------------*/
+
+.about-heading {
+	font-size: 200%;
+	color: #ec407a;
+}
+
+.about-section {
+	background-color: white;
+	padding: 80px;
+}
+
+.about-phone-info {
+	padding: 30px;
+}
+
+@media (max-width: 770px) {
+	.about-heading {
+		font-size: 125%;
+	}
+}
+
+@media (max-width: 450px) {
+	.about-section {
+		padding: 30px;
+	}
+}

@@ -1,0 +1,18 @@
+/*------------------------------------*\
+    Contact
+\*------------------------------------*/
+
+.contact-heading {
+	font-size: 200%;
+	color: #ec407a;
+}
+
+.contact-box {
+	margin-top: 5%;
+}
+
+@media (max-width: 770px) {
+  .contact-heading {
+    font-size: 100%;
+  }
+}

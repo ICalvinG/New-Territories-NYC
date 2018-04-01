@@ -1,0 +1,34 @@
+/*------------------------------------*\
+    News
+\*------------------------------------*/
+
+.news-heading {
+	font-size: 200%;
+	color: #ec407a;
+}
+
+.news-section-box {
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 5%;
+}
+
+.news-icon__container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.news-icon {
+	margin: 30px;
+}
+
+@media (max-width: 770px) {
+	.news-icon {
+		height: 100px;
+		width: 100px;
+		margin: 25px;
+	}
+}

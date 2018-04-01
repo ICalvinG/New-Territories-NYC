@@ -1,0 +1,19 @@
+/*------------------------------------*\
+    Logo
+\*------------------------------------*/
+
+.brand-logo {
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 1px;
+	top: 0;
+	z-index: 10000;
+}
+
+.mobile-logo {
+	display: none;
+}
+
+@media (max-width: 770px) {
+	.mobile-logo { display: block; }
+}
