@@ -53,6 +53,8 @@
  * of CSS when compiled on its own. These are nothing but Sass helpers.
  */
 
+ @import 'abstracts/variables';
+
 /**
  * Base
  * ----------------------------------------------------------------------------
@@ -89,3 +91,5 @@
  * very specific styles for the home page hence the need for a _home.scss file in
  * pages/.
  */
+
+ @import 'pages/index_page';
