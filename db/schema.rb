@@ -13,19 +13,19 @@
 ActiveRecord::Schema.define(version: 20170213052714) do
 
   create_table "contacts", force: :cascade do |t|
-    t.string   "name"
-    t.string   "email"
-    t.string   "message"
+    t.string "name"
+    t.string "email"
+    t.string "message"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "jobs", force: :cascade do |t|
-    t.string   "first_name"
-    t.string   "last_name"
-    t.string   "email"
-    t.string   "resume"
-    t.string   "messages"
+    t.string "first_name"
+    t.string "last_name"
+    t.string "email"
+    t.string "resume"
+    t.string "messages"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

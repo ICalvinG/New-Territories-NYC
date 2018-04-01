@@ -1,0 +1,13 @@
+/*------------------------------------*\
+    Header
+\*------------------------------------*/
+
+.nav-wrapper {
+	background-color: #FEF9E0;
+}
+
+@media (max-width: 770px) {
+  .nav-heading {
+    display: none;
+  }
+}

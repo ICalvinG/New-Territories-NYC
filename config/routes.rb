@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
 
 	resources :website
-	resources :menu
-	resources :jobs
-	resources :contacts
+
+	# Not currently in use
+	# resources :menu
+	# resources :jobs
+	# resources :contacts
 
 	root 'website#index'
 

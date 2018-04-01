@@ -1,0 +1,87 @@
+/*------------------------------------*\
+    Video
+\*------------------------------------*/
+
+.promo-container {
+  top: -4em;
+}
+
+#promo-video {
+    top: 0;
+    position: static;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    margin-bottom: 0;
+}
+
+#overlay {
+  position: absolute;
+  top: 9%;
+  color: #FFF;
+  text-align: center;
+  padding: 10px 0;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%
+}
+
+#overlay p {
+  font-size: 9vmin;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+#overlay h5 {
+  margin-top: 0;
+  font-size: 4vmin;
+}
+
+#overlay a {
+  margin-top: 4em;
+}
+
+video {
+    display: inline-block;
+}
+
+.promo-fade {
+  opacity: .95;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  height: 100%;
+}
+
+.promo-container .pattern-overlay {
+	background-color: rgba(71, 71, 71, 0.59);
+	padding: 110px 0 32px;
+	min-height: 496px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+@media (max-width: 375px) {
+	#overlay {
+		top: 2%;
+	}
+	#overlay .container p {
+		font-size: 200%;
+	}
+}
+
+@media (max-width: 450px) {
+	#overlay {
+		top: 1%;
+	}
+	#overlay .container p {
+		font-size: 350%;
+	}
+}
+
+@media (max-width: 1100px) {
+	#overlay {
+		top: 5%;
+	}
+}

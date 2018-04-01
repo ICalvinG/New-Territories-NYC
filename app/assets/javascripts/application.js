@@ -14,3 +14,22 @@
 //= require jquery_ujs
 //= require_tree .
 //= require materialize-sprockets
+
+window.onload = function() {
+	$("#google-click").click(function (e) {
+			e.preventDefault();
+		$("#contact-form").css("display", "none");
+    	$("#google-maps").css("display", "block");
+	});
+
+	$("#contact-click").click(function (e) {
+			e.preventDefault();
+		$("#google-maps").css("display", "none");
+    	$("#contact-form").css("display", "block");
+	});
+
+	if ($(".mobile-logo").css("display") == "none" ){
+		setTimeout(function(){ $("#overlay p").css('display','none'); },30000)
+		setTimeout(function(){ $("#overlay h5").css('display','none'); },30000)
+    }
+}

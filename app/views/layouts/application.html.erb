@@ -1,23 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js" lang="">
   <head>
-    <!-- Favicon -->
+    <title>New Territories NYC</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel='shortcut icon' href='/assets/favicon.ico' type='image/x-icon'/ >
-		<!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- Import Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <!-- Import Font-Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<!--Import materialize.css-->
-		<link type="text/css" rel="stylesheet" href="/assets/materialize.min.css" media="screen,projection"/>
-    <!--Let browser know website is optimized for mobile-->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      <!-- Include stylesheet for materialize.css -->
-    <link rel="stylesheet" type="text/css" href="/assets/materialize.css" />
-      <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="/assets/materialize.min.js"></script>
+    <%= stylesheet_link_tag "http://fonts.googleapis.com/icon?family=Material+Icons" %>
+    <%= stylesheet_link_tag "https://fonts.googleapis.com/css?family=Raleway" %>
+    <%= stylesheet_link_tag "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" %>
+    <%= stylesheet_link_tag "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css" %>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+    <%= javascript_include_tag 'application', media: 'all' %>
+    <%= javascript_include_tag "https://code.jquery.com/jquery-2.1.1.min.js" %>
+
+    <%= action_cable_meta_tag %>
+    <%= csrf_meta_tags %>
+
     <!-- Include Google Analytics -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -28,47 +29,12 @@
       ga('create', 'UA-90922333-3', 'auto');
       ga('send', 'pageview');
     </script>
-    <!-- Include UTF encoding -->
-    <meta charset="utf-8">
-
-    <title>New Territories NYC</title>
-    <%= csrf_meta_tags %>
   </head>
 
   <body>
-  <nav>
-    <a href="<%=root_path%>" class="brand-logo left"><img class="logo mobile-logo" src="/assets/icon.png" height=50 width=50></a>
-    <div class="nav-wrapper">
-    <% if current_page?(root_path) %>
-      <a href="#" data-activates="dropdown1" class="dropdown-button btn-large btn-flat menu-icon"><i class="fa fa-bars" aria-hidden="true"></i></a>
-      <% end %>
-        <span class="nav-heading">
-          <% if current_page?(root_path) %>
-            <ul class="left left-menu-line">
-              <li><%= link_to 'ABOUT', root_path(anchor: "about"), class: "menu-text" %></li>
-              <li><%= link_to 'MENU', root_path(anchor: "menu"), class: "menu-text" %></li>
-            </ul>
-          <% end %>
-          <a href="<%=root_path%>" class="brand-logo center"><img class="logo" src="/assets/icon.png" height=120 width=120></a>
-          <% if current_page?(root_path) %>
-            <ul class="right right-menu-line">
-              <li><%= link_to 'CONTACT US', root_path(anchor: "contact"), class: "menu-text" %></li>
-              <li><%= link_to 'THE BUZZ', root_path(anchor: "news"), class: "menu-text" %></li>             
-            </ul> 
-          <% end %>             
-        </span>
-        <% if current_page?(root_path) %>
-          <ul class="dropdown-content" id="dropdown1">
-            <li><%= link_to 'ABOUT', root_path(anchor: "about"), class: "menu-text" %></li>
-            <li><%= link_to 'MENU', root_path(anchor: "menu"), class: "menu-text" %></li>
-            <li><%= link_to 'CONTACT US', root_path(anchor: "contact"), class: "menu-text" %></li>
-            <li><%= link_to 'THE BUZZ', root_path(anchor: "news"), class: "menu-text" %></li> 
-            </ul>
-        <% end %> 
-    </div>
-  </nav>
+    <%= render partial: "./partials/header" %>
 
     <%= yield %>
-  <%= render partial: "./footer" %>
   </body>
+  <%= render partial: "./partials/footer" %>
 </html>
