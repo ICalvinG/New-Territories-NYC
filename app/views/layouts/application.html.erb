@@ -11,9 +11,8 @@
     <%= stylesheet_link_tag "http://fonts.googleapis.com/icon?family=Material+Icons" %>
     <%= stylesheet_link_tag "https://fonts.googleapis.com/css?family=Raleway" %>
     <%= stylesheet_link_tag "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" %>
-    <%= stylesheet_link_tag "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css" %>
     <%= stylesheet_link_tag 'application', media: 'all' %>
-    <%= javascript_include_tag 'application' %>
+    <%= javascript_include_tag 'application', media: 'all' %>
     <%= javascript_include_tag "https://code.jquery.com/jquery-2.1.1.min.js" %>
 
     <%= action_cable_meta_tag %>
@@ -33,7 +32,7 @@
 
   <body>
     <%= render partial: "./partials/header" %>
-    
+
     <%= yield %>
   </body>
   <%= render partial: "./partials/footer" %>
